@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: kops
-        image: krisnova/kops:latest
+        image: krisnova/kops-server:latest
         ports:
         - containerPort: 80
